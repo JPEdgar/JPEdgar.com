@@ -3,7 +3,7 @@ import React from "react";
 function Store() {
   return (
     <div>
-      <p>store</p>
+      <p>str</p>
     </div>
   );
 }

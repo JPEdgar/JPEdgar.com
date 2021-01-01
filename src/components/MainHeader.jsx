@@ -4,7 +4,7 @@ function MainHeader() {
   //
   return (
     <div>
-      <h1>News and Updates</h1>
+      <h1>Main header</h1>
     </div>
   );
 }

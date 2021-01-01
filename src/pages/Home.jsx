@@ -11,15 +11,16 @@ import BlogSection from "../components/BlogSection";
 import About from "./About";
 import Store from "./Store";
 
+// imports
+import logo from "../images/dh_r_hrz_4cp_grd_pos.svg";
+
 function HomePage() {
   return (
     <Container>
       <Row>
         {/* Logo/Name */}
-        <Image className="mr-3" src="https://picsum.photos/64" roundedCircle />
-        <h2 className="align-self-center">Info</h2>
+        <Image className="mr-3" src={logo} />
       </Row>
-
       <NavigationBar />
       <MainHeader />
       <Row>

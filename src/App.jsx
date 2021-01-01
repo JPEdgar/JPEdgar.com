@@ -2,7 +2,7 @@ import React from "react";
 
 // libraries
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {Container} from "react-bootstrap"
+import { Container } from "react-bootstrap";
 
 // pages
 import HomePage from "./pages/Home";

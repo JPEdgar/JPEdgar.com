@@ -6,7 +6,7 @@ import BlogBody from "./BlogBody";
 function BlogSection() {
   return (
     <div>
-      <Card.Header>Blog Header</Card.Header>
+      <Card.Header>B. Header</Card.Header>
       <BlogBody />
       <BlogBody />
       <BlogBody />
