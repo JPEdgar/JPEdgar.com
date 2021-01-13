@@ -5,20 +5,26 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 // pages
-import HomePage from "./pages/Home";
+import MainPage from "./pages/MainPage";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Store from "./pages/Store";
 
 // custom components
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container>
+    <Container style={{ backgroundColor: "lightgray" }}>
       <Router>
-        <HomePage />
-        <Route path="/about" component={About} />
-        <Route path="/store" component={Store} />
+        <MainPage />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/store" component={Store} />
+        </Switch>
       </Router>
+      <Footer />
     </Container>
   );
 }

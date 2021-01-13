@@ -1,9 +1,19 @@
-$navBar: #ed7420;
+$navBar: #ed7420; // DH Orange
+$dropdownMenu: white;
 
-.jp-nav {
+.navBar {
   background-color: $navBar;
+  height: 50px;
+  position: sticky;
+}
+.menuItem {
+  color: $dropdownMenu;
+  margin-top: 10px;
+  padding: 0;
 }
 
-.jp-navMenu {
-  color: white;
+.dropdown-toggle.nav-link {
+  color: $dropdownMenu;
+  margin-top: 10px;
+  padding: 0;
 }

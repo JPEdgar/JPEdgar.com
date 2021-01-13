@@ -1,10 +1,10 @@
 import React from "react";
-
+import { Container } from "react-bootstrap";
 function Store() {
   return (
-    <div>
+    <Container>
       <p>str</p>
-    </div>
+    </Container>
   );
 }
 
