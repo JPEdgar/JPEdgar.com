@@ -1,10 +1,17 @@
 import React from "react";
 
+import TagLine from "./TagLine";
+import "../styles.css";
+
 function MainHeader() {
   //
   return (
     <div>
-      <h1>Main header</h1>
+      <TagLine />
+      <p className="redWarning">
+        Due to COVID-19, print/ship times have been extended. <br />
+        Please be patient on your orders.
+      </p>
     </div>
   );
 }

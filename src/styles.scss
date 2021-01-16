@@ -1,19 +1,86 @@
-$navBar: #ed7420; // DH Orange
+// $navBar: #ed7420; // DH Orange
+$navBar: rgb(49, 49, 49);
 $dropdownMenu: white;
+$submenuItem: black;
+
+$darkText: rgb(49, 49, 49);
+$lightText: rgb(220, 220, 220);
+$yellowText: yellow;
+$redText: red;
 
 .navBar {
   background-color: $navBar;
   height: 50px;
   position: sticky;
+  z-index: 1;
 }
+
 .menuItem {
-  color: $dropdownMenu;
+  color: $lightText;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.logoText {
+  font-size: 45px;
+  color: $yellowText;
+  -webkit-text-stroke: 1px red;
+}
+
+.submenuItem {
+  color: $submenuItem;
   margin-top: 10px;
   padding: 0;
 }
 
 .dropdown-toggle.nav-link {
-  color: $dropdownMenu;
+  color: $lightText;
   margin-top: 10px;
   padding: 0;
+}
+
+.showcaseItem {
+  width: 275px;
+  padding: 5px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tagline {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.redWarning {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  line-height: 1.15;
+}
+
+.headerText {
+  color: $yellowText;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+.headerSubtext {
+  color: $lightText;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.content {
+  color: $lightText;
 }

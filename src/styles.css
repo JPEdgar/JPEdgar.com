@@ -1,17 +1,76 @@
 .navBar {
-  background-color: #ed7420;
+  background-color: #313131;
   height: 50px;
   position: sticky;
+  z-index: 1;
 }
 
 .menuItem {
-  color: white;
+  color: gainsboro;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.logoText {
+  font-size: 45px;
+  color: yellow;
+  -webkit-text-stroke: 1px red;
+}
+
+.submenuItem {
+  color: black;
   margin-top: 10px;
   padding: 0;
 }
 
 .dropdown-toggle.nav-link {
-  color: white;
+  color: gainsboro;
   margin-top: 10px;
   padding: 0;
+}
+
+.showcaseItem {
+  width: 275px;
+  padding: 5px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tagline {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.redWarning {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  line-height: 1.15;
+}
+
+.headerText {
+  color: yellow;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+.headerSubtext {
+  color: gainsboro;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.content {
+  color: gainsboro;
 }

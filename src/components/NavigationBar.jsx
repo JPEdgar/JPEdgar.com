@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../styles.css";
@@ -8,7 +8,7 @@ import "../styles.css";
 function NavigationBar() {
   return (
     <div className="navBar">
-      <Nav justify bg="dark">
+      <Nav justify>
         <Nav.Item>
           <Link to="/">
             <p className="menuItem">Home</p>
@@ -22,23 +22,23 @@ function NavigationBar() {
         <NavDropdown title={<span className="menuItem">Store</span>}>
           <NavDropdown.Item>
             <Link to="/store">
-              <p className="menuItem">1</p>
+              <p className="submenuItem">BoA, Bk1</p>
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/store">
-              <p className="menuItem">2</p>
+              <p className="submenuItem">BoA, Bk2</p>
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link to="/store">
-              <p className="menuItem">3</p>
+              <p className="submenuItem">BoA, Bk3</p>
             </Link>
           </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item>
             <Link to="/store">
-              <p className="menuItem">4</p>
+              <p className="submenuItem">Gobs</p>
             </Link>
           </NavDropdown.Item>
         </NavDropdown>

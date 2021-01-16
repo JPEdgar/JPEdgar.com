@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container style={{ backgroundColor: "lightgray" }}>
+    <Container style={{ backgroundColor: "black" }}>
       <Router>
         <MainPage />
         <Switch>
