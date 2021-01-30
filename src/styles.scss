@@ -53,7 +53,6 @@ $redText: red;
 }
 
 .tagline {
-  text-align: center;
   font-style: oblique;
   color: white;
   font-size: 0.9rem;
@@ -62,25 +61,48 @@ $redText: red;
 .redWarning {
   padding-top: 0;
   margin-top: 0;
-  text-align: center;
   color: red;
   font-size: 1.2rem;
   line-height: 1.15;
 }
 
 .headerText {
+  margin-top: 10px;
   color: $yellowText;
-  text-align: center;
   font-size: 1.5rem;
   line-height: 1.15;
 }
 
 .headerSubtext {
   color: $lightText;
-  text-align: center;
   line-height: 1.15;
 }
 
 .content {
   color: $lightText;
+}
+
+.middle {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  color: $lightText;
+}
+
+hr.lightLine {
+  border-top: 1px solid $lightText;
+}
+
+.booksButton {
+  margin: 3px;
 }

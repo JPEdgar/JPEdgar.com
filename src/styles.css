@@ -43,7 +43,6 @@
 }
 
 .tagline {
-  text-align: center;
   font-style: oblique;
   color: white;
   font-size: 0.9rem;
@@ -52,25 +51,48 @@
 .redWarning {
   padding-top: 0;
   margin-top: 0;
-  text-align: center;
   color: red;
   font-size: 1.2rem;
   line-height: 1.15;
 }
 
 .headerText {
+  margin-top: 10px;
   color: yellow;
-  text-align: center;
   font-size: 1.5rem;
   line-height: 1.15;
 }
 
 .headerSubtext {
   color: gainsboro;
-  text-align: center;
   line-height: 1.15;
 }
 
 .content {
   color: gainsboro;
+}
+
+.middle {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  color: gainsboro;
+}
+
+hr.lightLine {
+  border-top: 1px solid gainsboro;
+}
+
+.booksButton {
+  margin: 3px;
 }

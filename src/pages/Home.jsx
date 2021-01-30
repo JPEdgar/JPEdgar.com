@@ -4,7 +4,6 @@ import MainHeader from "../components/MainHeader";
 import GeneralSection from "../components/GeneralSection";
 import BlogSection from "../components/BlogSection";
 import SecondaryItem from "../components/SecondaryItem";
-import "../styles.css";
 
 function HomePage() {
   return (
