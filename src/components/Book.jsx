@@ -1,44 +1,49 @@
 import React from "react";
 import { Image, Container, Row, Col, Button } from "react-bootstrap";
-// import Book2 from "../images/BoA_JaceBk2_Cover.jpg";
 
-function Book({ title, content, coverArt }) {
-  const bookCover = "../images/BoA_JaceBk2_Cover.jpg";
-
+function Book({ title, content, coverArt, altText }) {
+  console.log(coverArt);
   return (
     <>
-      <img src={`url(${bookCover})`} />
+      <Container style={{ marginLeft: "auto", marginRight: "auto" }}>
+        <Row style={{ display: "flex" }}>
+          <Col xs={5}>
+            <Image
+              src={coverArt}
+              thumbnail
+              style={{ width: "90%" }}
+              alt={altText}
+            />
+          </Col>
+          <Col xs={1} />
+          <Col xs={6}>
+            <p className="headerText">{title}</p>
+            {content.map((data, key) => (
+              <p key={key} className="content">{data}</p>
+            ))}
+          </Col>
+        </Row>
+        <Row style={{ marginLeft: "auto", marginRight: "auto" }}>
+          <Col xs={5}>
+            <Button className="booksButton btn btn-primary">
+              Read Snippet
+            </Button>
+            <Button className="booksButton btn btn-primary">Listen</Button>
+            <Button className="booksButton btn btn-primary">Purchase</Button>
+          </Col>
+          <Col xs={7} />
+        </Row>
+        <hr className="lightLine" />
+      </Container>
     </>
-    // <Container style={{ marginLeft: "auto", marginRight: "auto" }}>
-    //   <Row style={{ display: "flex" }}>
-    //     <Col xs={5}>
-    //       <Image src={bookCover} thumbnail style={{ width: "90%" }} />
-    //     </Col>
-    //     <Col xs={1} />
-    //     <Col xs={6}>
-    //       <p className="headerText">{title}</p>
-    //       {content.map((details) => (
-    //         <p className="content">{details}</p>
-    //       ))}
-    //     </Col>
-    //   </Row>
-    //   <Row style={{ marginLeft: "auto", marginRight: "auto" }}>
-    //     <Col xs={5}>
-    //       <Button className="booksButton btn btn-primary">Read Snippet</Button>
-    //       <Button className="booksButton btn btn-primary">Listen</Button>
-    //       <Button className="booksButton btn btn-primary">Purchase</Button>
-    //     </Col>
-    //     <Col xs={7} />
-    //   </Row>
-    //   <hr className="lightLine" />
-    // </Container>
   );
 }
 
 export default Book;
-//  <Row style={{marginLeft: "auto", marginRight: "auto"}}>
 
 /*
+
+
 function Book() {
   return (
     <Container style={{marginLeft: "auto", marginRight: "auto"}}>

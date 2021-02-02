@@ -15,6 +15,7 @@ import Home from "./pages/Home";
 import Books from "./pages/Books";
 import About from "./pages/About";
 import Store from "./pages/Store";
+import Blog from "./pages/Blog";
 
 // custom components
 import Footer from "./components/Footer";
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/books" component={Books} />
           <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
           <Route path="/store" component={Store} />
         </Switch>
       </Router>

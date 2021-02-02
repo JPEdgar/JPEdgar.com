@@ -1,10 +1,22 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import showcaseItem from "../images/BoA_JaceBk2_Tee.jpg";
+// import showcaseItem from "../data/images/BoA_JaceBk2_Tee.jpg";
+
+// import { baseUrl } from "../baseUrl";
 
 function MainItem() {
+  // useEffect(() => {
+  //   fetch(`${baseUrl}/bookData.json`)
+  //     .then((res) => {
+  //       return res.json();
+  //     })
+  //     .then((data) => {
+  //       console.log(data);
+  //     });
+  // }, []);
+
   return (
     <Container className="mt-4">
       <hr className="lightLine" />
@@ -15,11 +27,11 @@ function MainItem() {
           </p>
           {/* <Image src={showcaseItem} thumbnail /> */}
           <Link to="./store">
-            <img
+            {/* <img
               src={showcaseItem}
               alt="showcase item"
               className="showcaseItem"
-            />
+            /> */}
           </Link>
           <p className="headerSubtext middle">
             Check out the store to see the official Bloodlines of Atmos apparel

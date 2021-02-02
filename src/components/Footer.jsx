@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-
 function Footer() {
   return (
     <Container>
@@ -41,7 +40,7 @@ function Footer() {
           </p>
         </Col>
         <Col>
-          <a href="#">
+          <a href="/ReportProblem">
             <p className="copyright right">Report a Problem</p>
           </a>
         </Col>

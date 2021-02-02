@@ -13,27 +13,27 @@ function NavigationBar() {
         </Nav.Item>
 
         <NavDropdown title={<span className="menuItem">Books</span>}>
-          <NavDropdown.Item>
+          {/* <NavDropdown.Item> */}
             <Link to="/books">
               <p className="submenuItem">BoA, Bk1</p>
             </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
+          {/* </NavDropdown.Item> */}
+          {/* <NavDropdown.Item> */}
             <Link to="/books">
               <p className="submenuItem">BoA, Bk2</p>
             </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
+          {/* </NavDropdown.Item> */}
+          {/* <NavDropdown.Item> */}
             <Link to="/books">
               <p className="submenuItem">BoA, Bk3</p>
             </Link>
-          </NavDropdown.Item>
+          {/* </NavDropdown.Item> */}
           <NavDropdown.Divider />
-          <NavDropdown.Item>
+          {/* <NavDropdown.Item> */}
             <Link to="/books">
               <p className="submenuItem">Gobs</p>
             </Link>
-          </NavDropdown.Item>
+          {/* </NavDropdown.Item> */}
         </NavDropdown>
 
         <NavDropdown title={<span className="menuItem">Store</span>}>
@@ -61,7 +61,7 @@ function NavigationBar() {
         </NavDropdown>
 
         <Nav.Item>
-          <Link to="#">
+          <Link to="/blog">
             <p className="menuItem">Blog</p>
           </Link>
         </Nav.Item>

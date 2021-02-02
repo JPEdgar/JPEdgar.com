@@ -2,9 +2,20 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import showcaseItem from "../images/BoA_JaceBk2_Cover.jpg";
+// import showcaseItem from "../data/images/BoA_JaceBk2_Cover.jpg";
+// import { baseUrl } from "../baseUrl";
 
 function GeneralSection() {
+  // useEffect(() => {
+  //   fetch(`${baseUrl}/bookData.json`)
+  //     .then((res) => {
+  //       return res.json();
+  //     })
+  //     .then((data) => {
+  //       console.log(data);
+  //     });
+  // }, []);
+
   return (
     <Container>
       <Row>
@@ -18,7 +29,7 @@ function GeneralSection() {
             <br />
             <Link to="/.store">
               <span
-                class="headerSubtext"
+                className="headerSubtext"
                 style={{ textDecoration: "underline" }}
               >
                 Get yours now!
@@ -27,11 +38,11 @@ function GeneralSection() {
             Available in digital and softbound.
           </p>
           <Link to="./store">
-            <img
+            {/* <img
               src={showcaseItem}
               alt="showcase item"
               className="showcaseItem"
-            />
+            /> */}
           </Link>
         </Col>
       </Row>

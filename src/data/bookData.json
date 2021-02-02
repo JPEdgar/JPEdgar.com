@@ -1,27 +1,41 @@
-[
-  {
-    "id": 1,
-    "title": "Bloodlines of Atmos, the Book of Jace, Book 1 - Sanctuary",
-    "coverArt": "BoA_JaceBk1_Cover.jpg",
-    "altText": "BoA Jace Bk1",
-    "content": [
-      "This is the first book in the Bloodlines of Atmos series, and book one in the Jace trilogy.",
-      "Being the only survivor in a tragic car accident that claimed his entire family, 6-year-old Jace starts a new life in the Sanctuary for Orphaned Children - a place that seems like a comfortable and luxurious dream to those on the outside, but with a world so drastically different for those on the inside.",
-      "After a painful first day, Jace discovers he is surrounded by violence and torment, and isolates himself from the world around him, only to later embrace the combative lifestyle he would grow up in.  But when his simple life gets disrupted by a kid with strange abilities, Jace is forced to put his trust in others, and wage a personal war against those who possess unnatural powers.",
-      "He will discover strange magic and technology.",
-      "He will discover plots and oddities about the establishment.",
-      "He will discover that he is the savior for all humanity."
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Bloodlines of Atmos, the Book of Jace, Book 2 - Savior",
-    "coverArt": "BoA_JaceBk2_Cover.jpg",
-    "altText": "BoA Jace Bk2",
-    "content": [
-      "Forced to leave his sister behind when he turned 18, the story of Jace continues after his time in Sanctuary of Orphaned Children. He follows the path he paved to fight for humankind’s survival against the Evolved.",
-      "But what can one man do when pitted against magic users, massive stone golems, winged monsters, and other deadly creatures? And if he goes on this dangerous quest, what about his sister? And what about the suspicious activities at the orphanage?",
-      "In order to find the truth, he’ll have to call on old favors and see childhood acquaintances. Hopefully, that’ll be enough."
-    ]
-  }
-]
+{
+  "Books": [
+    {
+      "id": 1,
+      "title": "Bloodlines of Atmos, the Book of Jace, Book 1 - Sanctuary",
+      "coverArt": "images/BoA_JaceBk1_Cover.jpg",
+      "altText": "BoA Jace Bk1",
+      "content": [
+        "This is the first book in the Bloodlines of Atmos series, and book one in the Jace trilogy.",
+        "Being the only survivor in a tragic car accident that claimed his entire family, 6-year-old Jace starts a new life in the Sanctuary for Orphaned Children - a place that seems like a comfortable and luxurious dream to those on the outside, but with a world so drastically different for those on the inside.",
+        "After a painful first day, Jace discovers he is surrounded by violence and torment, and isolates himself from the world around him, only to later embrace the combative lifestyle he would grow up in.  But when his simple life gets disrupted by a kid with strange abilities, Jace is forced to put his trust in others, and wage a personal war against those who possess unnatural powers.",
+        "He will discover strange magic and technology.",
+        "He will discover plots and oddities about the establishment.",
+        "He will discover that he is the savior for all humanity."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bloodlines of Atmos, the Book of Jace, Book 2 - Savior",
+      "coverArt": "images/BoA_JaceBk2_Cover.jpg",
+      "altText": "BoA Jace Bk2",
+      "content": [
+        "Forced to leave his sister behind when he turned 18, the story of Jace continues after his time in Sanctuary of Orphaned Children. He follows the path he paved to fight for humankind’s survival against the Evolved.",
+        "But what can one man do when pitted against magic users, massive stone golems, winged monsters, and other deadly creatures? And if he goes on this dangerous quest, what about his sister? And what about the suspicious activities at the orphanage?",
+        "In order to find the truth, he’ll have to call on old favors and see childhood acquaintances. Hopefully, that’ll be enough."
+      ]
+    }
+  ],
+  "Blog": [
+    {
+      "id": 1,
+      "title": "test title 1",
+      "content": ["this is post number 1", "this is line 2 of post 1"]
+    },
+    {
+      "id": 2,
+      "title": "test title 2",
+      "content": ["this is post number 2", "this is line 2 of post 2"]
+    }
+  ]
+}
