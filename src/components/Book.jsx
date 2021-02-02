@@ -1,25 +1,37 @@
 import React from "react";
-import { Image, Container, Row, Col, Button } from "react-bootstrap";
+// import { Image, Container, Row, Col, Button } from "react-bootstrap";
 
 function Book({ title, content, coverArt, altText }) {
-  console.log(coverArt);
   return (
     <>
-      <Container style={{ marginLeft: "auto", marginRight: "auto" }}>
+      <img src="./test.jpg" alt="test" style={{ color: "white" }} />
+    </>
+  );
+}
+
+export default Book;
+
+/*
+
+
+       <Container style={{ marginLeft: "auto", marginRight: "auto" }}>
         <Row style={{ display: "flex" }}>
-          <Col xs={5}>
-            <Image
-              src={coverArt}
+          <Col xs={5}> 
+       <Image
+              src={require(tempPic)}
               thumbnail
               style={{ width: "90%" }}
-              alt={altText}
-            />
+              // alt={altText}
+              alt="test3"
+            /> 
           </Col>
           <Col xs={1} />
           <Col xs={6}>
             <p className="headerText">{title}</p>
             {content.map((data, key) => (
-              <p key={key} className="content">{data}</p>
+              <p key={key} className="content">
+                {data}
+              </p>
             ))}
           </Col>
         </Row>
@@ -35,14 +47,6 @@ function Book({ title, content, coverArt, altText }) {
         </Row>
         <hr className="lightLine" />
       </Container>
-    </>
-  );
-}
-
-export default Book;
-
-/*
-
 
 function Book() {
   return (
