@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, NavDropdown } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 function NavigationBar() {
   return (
@@ -13,50 +14,50 @@ function NavigationBar() {
         </Nav.Item>
 
         <NavDropdown title={<span className="menuItem">Books</span>}>
-          {/* <NavDropdown.Item> */}
-            <Link to="/books">
+          <LinkContainer to="/books">
+            <NavDropdown.Item>
               <p className="submenuItem">BoA, Bk1</p>
-            </Link>
-          {/* </NavDropdown.Item> */}
-          {/* <NavDropdown.Item> */}
-            <Link to="/books">
+            </NavDropdown.Item>
+          </LinkContainer>
+          <LinkContainer to="/books">
+            <NavDropdown.Item>
               <p className="submenuItem">BoA, Bk2</p>
-            </Link>
-          {/* </NavDropdown.Item> */}
-          {/* <NavDropdown.Item> */}
-            <Link to="/books">
+            </NavDropdown.Item>
+          </LinkContainer>
+          <LinkContainer to="/books">
+            <NavDropdown.Item>
               <p className="submenuItem">BoA, Bk3</p>
-            </Link>
-          {/* </NavDropdown.Item> */}
+            </NavDropdown.Item>
+          </LinkContainer>
           <NavDropdown.Divider />
-          {/* <NavDropdown.Item> */}
-            <Link to="/books">
+          <LinkContainer to="/books">
+            <NavDropdown.Item>
               <p className="submenuItem">Gobs</p>
-            </Link>
-          {/* </NavDropdown.Item> */}
+            </NavDropdown.Item>
+          </LinkContainer>
         </NavDropdown>
 
         <NavDropdown title={<span className="menuItem">Store</span>}>
           <NavDropdown.Item>
-            <Link to="/store">
+            <LinkContainer to="./store">
               <p className="submenuItem">BoA, Bk1</p>
-            </Link>
+            </LinkContainer>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/store">
+            <LinkContainer to="./store">
               <p className="submenuItem">BoA, Bk2</p>
-            </Link>
+            </LinkContainer>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/store">
+            <LinkContainer to="./store">
               <p className="submenuItem">BoA, Bk3</p>
-            </Link>
+            </LinkContainer>
           </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item>
-            <Link to="/store">
+            <LinkContainer to="./store">
               <p className="submenuItem">Gobs</p>
-            </Link>
+            </LinkContainer>
           </NavDropdown.Item>
         </NavDropdown>
 

@@ -7,8 +7,8 @@ function About() {
       <p className="headerText">About</p>
       <p className="content">
         J. P. Edgar is an American author who was born in Sacramento, California
-        in 1980. He went to college to obtain his Associates Degree in
-        Information Technology, and then got his Bachelor’s Degree in 2010 in
+        in 1980. He went to college to obtain his Associate's Degree in
+        Information Technology, and then got his Bachelor's Degree in 2010 in
         Game Design.
       </p>
       <p className="content">

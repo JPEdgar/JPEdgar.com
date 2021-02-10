@@ -78,6 +78,13 @@ $redText: red;
   line-height: 1.15;
 }
 
+.storeSubHeader {
+  margin-top: 10px;
+  color: $yellowText;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
 .content {
   color: $lightText;
 }
@@ -105,4 +112,9 @@ hr.lightLine {
 
 .booksButton {
   margin: 3px;
+}
+
+.storeButton {
+  margin: 3px;
+  display: block;
 }

@@ -68,6 +68,13 @@
   line-height: 1.15;
 }
 
+.storeSubHeader {
+  margin-top: 10px;
+  color: yellow;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
 .content {
   color: gainsboro;
 }
@@ -95,4 +102,9 @@ hr.lightLine {
 
 .booksButton {
   margin: 3px;
+}
+
+.storeButton {
+  margin: 3px;
+  display: block;
 }

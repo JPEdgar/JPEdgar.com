@@ -1,7 +1,7 @@
 {
   "Books": [
     {
-      "id": 1,
+      "id": "BoAJaceBk1_Book",
       "title": "Bloodlines of Atmos, the Book of Jace, Book 1 - Sanctuary",
       "coverArt": "images/BoA_JaceBk1_Cover.jpg",
       "altText": "BoA Jace Bk1",
@@ -12,10 +12,59 @@
         "He will discover strange magic and technology.",
         "He will discover plots and oddities about the establishment.",
         "He will discover that he is the savior for all humanity."
+      ],
+      "availPhysical": "true",
+      "physicalLinks": [
+        {
+          "vendor": "Lulu-Print",
+          "url": "http://www.lulu.com/shop/j-p-edgar/the-story-of-jace-sanctuary/paperback/product-24005131.html"
+        }
+      ],
+      "availDigital": "true",
+      "digitalLinks": [
+        {
+          "vendor": "Amazon",
+          "url": "https://amzn.to/2EHB5g5"
+        },
+        {
+          "vendor": "Nook-Press",
+          "url": "https://www.barnesandnoble.com/w/bloodlines-of-atmos-the-story-of-jace-sanctuary-book-1-j-p-edgar/1130761389"
+        },
+        {
+          "vendor": "Smashwords",
+          "url": "https://www.smashwords.com/books/view/926449"
+        },
+        {
+          "vendor": "Rakuten kobo",
+          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos"
+        },
+        {
+          "vendor": "",
+          "url": ""
+        }
+      ],
+      "availAudio": "false",
+      "audioLinks": [
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        }
       ]
     },
     {
-      "id": 2,
+      "id": "BoAJaceBk2_Book",
       "title": "Bloodlines of Atmos, the Book of Jace, Book 2 - Savior",
       "coverArt": "images/BoA_JaceBk2_Cover.jpg",
       "altText": "BoA Jace Bk2",
@@ -23,7 +72,102 @@
         "Forced to leave his sister behind when he turned 18, the story of Jace continues after his time in Sanctuary of Orphaned Children. He follows the path he paved to fight for humankind’s survival against the Evolved.",
         "But what can one man do when pitted against magic users, massive stone golems, winged monsters, and other deadly creatures? And if he goes on this dangerous quest, what about his sister? And what about the suspicious activities at the orphanage?",
         "In order to find the truth, he’ll have to call on old favors and see childhood acquaintances. Hopefully, that’ll be enough."
+      ],
+      "availPhysical": "true",
+      "physicalLinks": [
+        {
+          "vendor": "Lulu-Print",
+          "url": "https://www.lulu.com/en/us/shop/j-p-edgar/bloodlines-of-atmos-the-story-of-jace-savior/paperback/product-1pgjee2d.html"
+        }
+      ],
+
+      "availDigital": "true",
+      "digitalLinks": [
+        {
+          "vendor": "Amazon",
+          "url": "https://amzn.to/2WzP5Sg"
+        },
+        {
+          "vendor": "Nook-Press",
+          "url": "https://https://www.barnesandnoble.com/w/bloodlines-of-atmos-the-story-of-jace-savior-j-p-edgar/1137023073?ean=2940162894100"
+        },
+        {
+          "vendor": "Smashwords",
+          "url": "https://https://www.smashwords.com/books/view/1021979"
+        },
+        {
+          "vendor": "Rakuten kobo",
+          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos-the-story-of-jace-savior"
+        },
+        {
+          "vendor": "",
+          "url": ""
+        }
+      ],
+
+      "availAudio": "false",
+      "audioLinks": [
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        },
+        {
+          "vendor": "",
+          "url": ""
+        }
       ]
+    }
+  ],
+  "Apparel": [
+    {
+      "id": "BoAJaceBk1_App_Tee",
+      "group": "BoAJaceBk1",
+      "title": "Bloodlines of Atmos, Jace Book 1 UnisexTee",
+      "image": "images/BoA_JaceBk1_Tee.jpg",
+      "altText": "BoA, Jace Bk1 unisex tee"
+    },
+    {
+      "id": "BoAJaceBk1_App_Hoodie",
+      "group": "BoAJaceBk1",
+      "title": "Bloodlines of Atmos, Jace Book 1 Hoodie",
+      "image": "images/BoA_JaceBk1_Hoodie.jpg",
+      "altText": "BoA, Jace Bk1 hoodie"
+    },
+    {
+      "id": "BoAJaceBk1_App_VNeck",
+      "group": "BoAJaceBk1",
+      "title": "Bloodlines of Atmos, Jace Book 1 V-Neck",
+      "image": "images/BoA_JaceBk1_VNeck.jpg",
+      "altText": "BoA, Jace Bk1 v-neck"
+    },
+    {
+      "id": "BoAJaceBk2_App_Tee",
+      "group": "BoAJaceBk2",
+      "title": "Bloodlines of Atmos, Jace Book 2 UnisexTee",
+      "image": "images/BoA_JaceBk2_Tee.jpg",
+      "altText": "BoA, Jace Bk2 unisex tee"
+    },
+    {
+      "id": "BoAJaceBk2_App_Hoodie",
+      "group": "BoAJaceBk2",
+      "title": "Bloodlines of Atmos, Jace Book 2 Hoodie",
+      "image": "images/BoA_JaceBk2_Hoodie.jpg",
+      "altText": "BoA, Jace Bk2 hoodie"
+    },
+    {
+      "id": "BoAJaceBk2_App_VNeck",
+      "group": "BoAJaceBk2",
+      "title": "Bloodlines of Atmos, Jace Book 2 V-Neck",
+      "image": "images/BoA_JaceBk2_VNeck.jpg",
+      "altText": "BoA, Jace Bk2 v-neck"
     }
   ],
   "Blog": [

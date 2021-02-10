@@ -1,11 +1,38 @@
 import React from "react";
-// import { Image, Container, Row, Col, Button } from "react-bootstrap";
+import { Image, Container, Row, Col, Button } from "react-bootstrap";
 
 function Book({ title, content, coverArt, altText }) {
   return (
-    <>
-      <img src="./test.jpg" alt="test" style={{ color: "white" }} />
-    </>
+    <Container style={{ marginLeft: "auto", marginRight: "auto" }}>
+      <Row style={{ display: "flex" }}>
+        <Col xs={5}>
+          <Image
+            src={coverArt}
+            thumbnail
+            style={{ width: "90%" }}
+            alt={altText}
+          />
+        </Col>
+        <Col xs={1} />
+        <Col xs={6}>
+          <p className="headerText">{title}</p>
+          {content.map((data, key) => (
+            <p key={key} className="content">
+              {data}
+            </p>
+          ))}
+        </Col>
+      </Row>
+      <Row style={{ marginLeft: "auto", marginRight: "auto" }}>
+        <Col xs={5}>
+          <Button className="booksButton btn btn-primary">Read Snippet</Button>
+          <Button className="booksButton btn btn-primary">Listen</Button>
+          <Button className="booksButton btn btn-primary">Purchase</Button>
+        </Col>
+        <Col xs={7} />
+      </Row>
+      <hr className="lightLine" />
+    </Container>
   );
 }
 
