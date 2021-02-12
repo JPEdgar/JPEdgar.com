@@ -4,8 +4,8 @@ import { Card } from "react-bootstrap";
 function BlogBody() {
   return (
     <Card.Body>
-      <Card.Title>B. Date</Card.Title>
-      <Card.Text>B. Snippet</Card.Text>
+      <Card.Title className="headerSubtext">Blog Date</Card.Title>
+      <Card.Text className="content">Blog Snippet</Card.Text>
     </Card.Body>
   );
 }

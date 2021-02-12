@@ -14,27 +14,27 @@ function NavigationBar() {
         </Nav.Item>
 
         <NavDropdown title={<span className="menuItem">Books</span>}>
-          <LinkContainer to="/books">
-            <NavDropdown.Item>
+          <NavDropdown.Item>
+            <LinkContainer to="./books">
               <p className="submenuItem">BoA, Bk1</p>
-            </NavDropdown.Item>
-          </LinkContainer>
-          <LinkContainer to="/books">
-            <NavDropdown.Item>
+            </LinkContainer>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <LinkContainer to="./books">
               <p className="submenuItem">BoA, Bk2</p>
-            </NavDropdown.Item>
-          </LinkContainer>
-          <LinkContainer to="/books">
-            <NavDropdown.Item>
+            </LinkContainer>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <LinkContainer to="./books">
               <p className="submenuItem">BoA, Bk3</p>
-            </NavDropdown.Item>
-          </LinkContainer>
+            </LinkContainer>
+          </NavDropdown.Item>
           <NavDropdown.Divider />
-          <LinkContainer to="/books">
-            <NavDropdown.Item>
+          <NavDropdown.Item>
+            <LinkContainer to="./books">
               <p className="submenuItem">Gobs</p>
-            </NavDropdown.Item>
-          </LinkContainer>
+            </LinkContainer>
+          </NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title={<span className="menuItem">Store</span>}>
@@ -62,19 +62,19 @@ function NavigationBar() {
         </NavDropdown>
 
         <Nav.Item>
-          <Link to="/blog">
+          <Link to="./blog">
             <p className="menuItem">Blog</p>
           </Link>
         </Nav.Item>
 
         <Nav.Item>
-          <Link to="/about">
+          <Link to="./about">
             <p className="menuItem">About</p>
           </Link>
         </Nav.Item>
 
         <Nav.Item>
-          <Link to="#">
+          <Link to="./contact">
             <p className="menuItem">Contact</p>
           </Link>
         </Nav.Item>

@@ -30,7 +30,7 @@ function Blog() {
 
   return (
     <Container>
-      <p>blog</p>
+      <p className="headerText">Blog</p>
       {/* <p>{blogs}</p> */}
     </Container>
   );

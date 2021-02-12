@@ -24,20 +24,22 @@
       "digitalLinks": [
         {
           "vendor": "Amazon",
-          "url": "https://amzn.to/2EHB5g5"
+          "url": "https://www.amazon.com/Bloodlines-Atmos-Story-Jace-Sanctuary-ebook/dp/B07P6CRDC6/"
+        },
+        {
+          "vendor": "Kobo",
+          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos"
         },
         {
           "vendor": "Nook-Press",
           "url": "https://www.barnesandnoble.com/w/bloodlines-of-atmos-the-story-of-jace-sanctuary-book-1-j-p-edgar/1130761389"
         },
+
         {
           "vendor": "Smashwords",
           "url": "https://www.smashwords.com/books/view/926449"
         },
-        {
-          "vendor": "Rakuten kobo",
-          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos"
-        },
+
         {
           "vendor": "",
           "url": ""
@@ -85,20 +87,22 @@
       "digitalLinks": [
         {
           "vendor": "Amazon",
-          "url": "https://amzn.to/2WzP5Sg"
+          "url": "https://www.amazon.com/Bloodlines-Atmos-Story-Jace-Savior-ebook/dp/B088NN8Y77/"
+        },
+        {
+          "vendor": "Kobo",
+          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos-the-story-of-jace-savior"
         },
         {
           "vendor": "Nook-Press",
-          "url": "https://https://www.barnesandnoble.com/w/bloodlines-of-atmos-the-story-of-jace-savior-j-p-edgar/1137023073?ean=2940162894100"
+          "url": "https://www.barnesandnoble.com/w/bloodlines-of-atmos-the-story-of-jace-savior-j-p-edgar/1137023073?ean=2940162894100"
         },
+
         {
           "vendor": "Smashwords",
           "url": "https://https://www.smashwords.com/books/view/1021979"
         },
-        {
-          "vendor": "Rakuten kobo",
-          "url": "https://www.kobo.com/us/en/ebook/bloodlines-of-atmos-the-story-of-jace-savior"
-        },
+
         {
           "vendor": "",
           "url": ""
@@ -132,54 +136,68 @@
       "group": "BoAJaceBk1",
       "title": "Bloodlines of Atmos, Jace Book 1 UnisexTee",
       "image": "images/BoA_JaceBk1_Tee.jpg",
-      "altText": "BoA, Jace Bk1 unisex tee"
+      "altText": "BoA, Jace Bk1 unisex tee",
+      "url": "https://www.etsy.com/listing/745544411"
     },
     {
       "id": "BoAJaceBk1_App_Hoodie",
       "group": "BoAJaceBk1",
       "title": "Bloodlines of Atmos, Jace Book 1 Hoodie",
       "image": "images/BoA_JaceBk1_Hoodie.jpg",
-      "altText": "BoA, Jace Bk1 hoodie"
+      "altText": "BoA, Jace Bk1 hoodie",
+      "url": "https://www.etsy.com/listing/731684022"
     },
     {
       "id": "BoAJaceBk1_App_VNeck",
       "group": "BoAJaceBk1",
       "title": "Bloodlines of Atmos, Jace Book 1 V-Neck",
       "image": "images/BoA_JaceBk1_VNeck.jpg",
-      "altText": "BoA, Jace Bk1 v-neck"
+      "altText": "BoA, Jace Bk1 v-neck",
+      "url": "https://www.etsy.com/listing/745544539"
     },
     {
       "id": "BoAJaceBk2_App_Tee",
       "group": "BoAJaceBk2",
       "title": "Bloodlines of Atmos, Jace Book 2 UnisexTee",
       "image": "images/BoA_JaceBk2_Tee.jpg",
-      "altText": "BoA, Jace Bk2 unisex tee"
+      "altText": "BoA, Jace Bk2 unisex tee",
+      "url": "https://www.etsy.com/listing/857458146"
     },
     {
       "id": "BoAJaceBk2_App_Hoodie",
       "group": "BoAJaceBk2",
       "title": "Bloodlines of Atmos, Jace Book 2 Hoodie",
       "image": "images/BoA_JaceBk2_Hoodie.jpg",
-      "altText": "BoA, Jace Bk2 hoodie"
+      "altText": "BoA, Jace Bk2 hoodie",
+      "url": "https://www.etsy.com/listing/857465092"
     },
     {
       "id": "BoAJaceBk2_App_VNeck",
       "group": "BoAJaceBk2",
       "title": "Bloodlines of Atmos, Jace Book 2 V-Neck",
       "image": "images/BoA_JaceBk2_VNeck.jpg",
-      "altText": "BoA, Jace Bk2 v-neck"
+      "altText": "BoA, Jace Bk2 v-neck",
+      "url": "https://www.etsy.com/listing/857465092"
     }
   ],
   "Blog": [
     {
       "id": 1,
       "title": "test title 1",
-      "content": ["this is post number 1", "this is line 2 of post 1"]
+      "content": [
+        "this is post number 1",
+        "this is line 2 of post 1",
+        "this is line 3 of post 1"
+      ]
     },
     {
       "id": 2,
       "title": "test title 2",
-      "content": ["this is post number 2", "this is line 2 of post 2"]
+      "content": [
+        "this is post number 2",
+        "this is line 2 of post 2",
+        "this is line 3 of post 2"
+      ]
     }
   ]
 }

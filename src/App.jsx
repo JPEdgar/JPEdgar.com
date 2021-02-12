@@ -16,25 +16,29 @@ import Books from "./pages/Books";
 import About from "./pages/About";
 import Store from "./pages/Store";
 import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
 
 // custom components
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container style={{ backgroundColor: "black" }}>
-      <Router>
-        <MainPage />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/books" component={Books} />
-          <Route path="/about" component={About} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/store" component={Store} />
-        </Switch>
-      </Router>
-      <Footer />
-    </Container>
+    <div className="test">
+      <Container style={{ backgroundColor: "#050505" }}>
+        <Router>
+          <MainPage />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/books" component={Books} />
+            <Route path="/store" component={Store} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </Router>
+        <Footer />
+      </Container>
+    </div>
   );
 }
 

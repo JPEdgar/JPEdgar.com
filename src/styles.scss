@@ -8,6 +8,10 @@ $lightText: rgb(220, 220, 220);
 $yellowText: yellow;
 $redText: red;
 
+.test {
+  background-color: black;
+}
+
 .navBar {
   background-color: $navBar;
   height: 50px;
@@ -111,10 +115,14 @@ hr.lightLine {
 }
 
 .booksButton {
-  margin: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+  width: 100%;
 }
 
 .storeButton {
-  margin: 3px;
-  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
 }
