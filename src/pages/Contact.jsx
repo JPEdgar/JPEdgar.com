@@ -12,15 +12,15 @@ function Contact() {
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">
-          <Form.Label className="content">Email address</Form.Label>
+          <Form.Label className="content">Your email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
           <Form.Text className="content">
             Your email with never be shared with anyone else.
           </Form.Text>
         </Form.Group>
 
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label className="content">Password</Form.Label>
+        <Form.Group controlId="formBasicMessage">
+          <Form.Label className="content">Your message</Form.Label>
           <Form.Control as="textarea" rows={3} placeholder="Message" />
         </Form.Group>
 
@@ -34,6 +34,7 @@ function Contact() {
             type="checkbox"
             label="I'm a robot."
           />
+
           <Form.Check
             inline
             className="content"
@@ -42,7 +43,7 @@ function Contact() {
           />
         </Form.Group>
       </Form>
-      <Button className="btn btn-light storeButton">Submit</Button>
+          <Button className="btn btn-light storeButton">Submit</Button>
     </Container>
   );
 }

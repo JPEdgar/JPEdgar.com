@@ -48,12 +48,12 @@
       "availAudio": "false",
       "audioLinks": [
         {
-          "vendor": "",
-          "url": ""
+          "vendor": "Audible - US",
+          "url": "https://www.audible.com/pd/B08WYHPP4V/?source_code=AUDFPWS0223189MWT-BK-ACX0-239440&ref=acx_bty_BK_ACX0_239440_rh_us"
         },
         {
-          "vendor": "",
-          "url": ""
+          "vendor": "Audible - UK",
+          "url": "https://www.audible.co.uk/pd/B08WZ1D295/?source_code=AUKFrDlWS02231890H6-BK-ACX0-239440&ref=acx_bty_BK_ACX0_239440_rh_uk"
         },
         {
           "vendor": "",
@@ -178,26 +178,6 @@
       "image": "images/BoA_JaceBk2_VNeck.jpg",
       "altText": "BoA, Jace Bk2 v-neck",
       "url": "https://www.etsy.com/listing/857465092"
-    }
-  ],
-  "Blog": [
-    {
-      "id": 1,
-      "title": "test title 1",
-      "content": [
-        "this is post number 1",
-        "this is line 2 of post 1",
-        "this is line 3 of post 1"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "test title 2",
-      "content": [
-        "this is post number 2",
-        "this is line 2 of post 2",
-        "this is line 3 of post 2"
-      ]
     }
   ]
 }
