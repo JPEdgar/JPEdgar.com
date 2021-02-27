@@ -1,104 +1,61 @@
-import Editor from "@stfy/react-editor.js";
-import Header from "@editorjs/header";
-import List from "@editorjs/list";
+import EditorJs from "react-editor-js";
+// tools.js
 import Embed from "@editorjs/embed";
-import ImageTool from "@editorjs/image";
+import Table from "@editorjs/table";
+import Paragraph from "@editorjs/paragraph";
+import List from "@editorjs/list";
+import Warning from "@editorjs/warning";
+import Code from "@editorjs/code";
+import LinkTool from "@editorjs/link";
+import Image from "@editorjs/image";
+import Raw from "@editorjs/raw";
+import Header from "@editorjs/header";
+import Quote from "@editorjs/quote";
+import Marker from "@editorjs/marker";
+import CheckList from "@editorjs/checklist";
+import Delimiter from "@editorjs/delimiter";
+import InlineCode from "@editorjs/inline-code";
+import SimpleImage from "@editorjs/simple-image";
+
 import { baseUrl } from "../baseUrl";
 
 function BlogEditor() {
-  const CustomHeader = {
-    class: Header,
-    inlineToolbar: ["link"],
+  const EDITOR_JS_TOOLS = {
+    // embed: Embed,
+    // table: Table,
+    paragraph: Paragraph,
+    // list: List,
+    // warning: Warning,
+    // code: Code,
+    // linkTool: LinkTool,
+    // image: Image,
+    // raw: Raw,
+    // header: Header,
+    // quote: Quote,
+    // marker: Marker,
+    // checklist: CheckList,
+    // delimiter: Delimiter,
+    // inlineCode: InlineCode,
+    // simpleImage: SimpleImage,
   };
-
-  const CustomList = {
-    class: List,
-    inlineToolbar: ["link", "bold"],
-  };
-
-  const CustomEmbed = {
-    class: Embed,
-    inlineToolbar: false,
-    config: {
-      services: {
-        youtube: true,
-        coub: true,
-      },
-    },
-  };
-
-  const CustomImage = {
-    class: ImageTool,
-    config: {
-      byUrl: baseUrl,
-      byFile: baseUrl,
-    },
-  };
-
   return (
     <>
-      {/* <h2 className="headerSubtext">Header</h2> */}
-      <div
-        style={{
-          backgroundColor: "lightgray",
-        }}
-      >
-        <Editor
-          autofocus
-          tools={{
-            header: CustomHeader,
-            list: CustomList,
-            embed: CustomEmbed,
-            imageTool: CustomImage,
-          }}
-        />
-        {/* <p className="content">Body</p>
-      </div>
-      <h2 className="headerSubtext">Body</h2>
-      <div style={{ backgroundColor: "lightgray", padding: "5px" }}>
-        <Editor
-          tools={{
-            list: CustomList,
-            embed: CustomEmbed,
-          }}
-        />*/}
-      </div>
+      <EditorJs
+        tools={
+          (EDITOR_JS_TOOLS
+          // {
+          //   linkTool: {
+          //     class: LinkTool,
+          //     config: {
+          //       endpoint: baseUrl, // Your backend endpoint for url data fetching
+          //     },
+          //   },
+          // }
+          )
+        }
+      />
     </>
   );
 }
 
 export default BlogEditor;
-
-/*
-function BlogEditor() {
-  return (
-    <>
-      <p>test</p>
-      <Editor
-        autofocus
-        holder="editorjs-container"
-        excludeDefaultTools={["header"]}
-        onChange={() => console.log("Something is changing!!")}
-        onData={(data) => console.log(data)}
-        customTools={{
-          header: CustomHeader,
-        }}
-        onReady={() => console.log("Start!")}
-        data={{
-          time: 1554920381017,
-          blocks: [
-            {
-              type: "header",
-              data: {
-                text: "Hello Editor.js",
-                level: 2,
-              },
-            },
-          ],
-          version: "2.12.4",
-        }}
-      />
-    </>
-  );
-}
-*/

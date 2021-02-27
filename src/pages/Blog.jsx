@@ -8,7 +8,10 @@ function Blog() {
   return (
     <Container>
       <p className="headerText">Blog</p>
+      <div style={{backgroundColor: "lightgray", padding: "10px 20px"}}>
+
       <BlogEditor />
+      </div>
     </Container>
   );
 }
