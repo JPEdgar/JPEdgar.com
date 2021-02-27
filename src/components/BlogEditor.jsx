@@ -2,6 +2,8 @@ import Editor from "@stfy/react-editor.js";
 import Header from "@editorjs/header";
 import List from "@editorjs/list";
 import Embed from "@editorjs/embed";
+import ImageTool from "@editorjs/image";
+import { baseUrl } from "../baseUrl";
 
 function BlogEditor() {
   const CustomHeader = {
@@ -25,25 +27,32 @@ function BlogEditor() {
     },
   };
 
+  const CustomImage = {
+    class: ImageTool,
+    config: {
+      byUrl: baseUrl,
+      byFile: baseUrl,
+    },
+  };
+
   return (
     <>
-      <h2 className="headerSubtext">Header</h2>
+      {/* <h2 className="headerSubtext">Header</h2> */}
       <div
         style={{
-          margin: "0px",
-          padding: "5px",
-          height: "50px",
           backgroundColor: "lightgray",
-          overflow: "hidden",
         }}
       >
         <Editor
           autofocus
           tools={{
             header: CustomHeader,
+            list: CustomList,
+            embed: CustomEmbed,
+            imageTool: CustomImage,
           }}
         />
-        <p className="content">Body</p>
+        {/* <p className="content">Body</p>
       </div>
       <h2 className="headerSubtext">Body</h2>
       <div style={{ backgroundColor: "lightgray", padding: "5px" }}>
@@ -52,7 +61,7 @@ function BlogEditor() {
             list: CustomList,
             embed: CustomEmbed,
           }}
-        />
+        />*/}
       </div>
     </>
   );
